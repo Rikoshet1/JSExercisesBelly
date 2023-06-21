@@ -1,0 +1,37 @@
+1.Why are global variables bad?
+ One of the most important things in the code
+ is to be flexible, easy to expand and change easily,
+ and global variables have exactly the opposite feature -
+ they reduce flexibility and modularity,
+ and therefore they are considered at least good in j.s code
+2.What are the 3 ways a global variable is created?
+ 1.declare with "var" word or with "global" word if you want
+  to declare in  the function
+ 2.declare on the global scope
+ 3.create a global variable called globalString and we give it a value.
+3.What is the global object in the browser?
+ The global object is set to the window object. 
+4.What is an IIFE?
+ IIfe is a function that runs the moment it is invoked or called
+ in the JavaScript event loop. Having a function that behaves 
+ that way can be useful in certain situations
+5.What is scope?
+ scope is the area
+ of ​​its meaning in this code that by pairs of pairs, loops, etc.
+ the project is divided into areas,
+ and variables that I defined in one area are not recognized in another area
+6.What are the differences between var and let?
+ Variables declared by let are only available inside the block where they're defined.
+ Variables declared by var are available throughout the function in which they're declared
+7.What is the result of these expressions 1 == true, true + 1
+ true,2 
+8.What is a function decleration, what is a function expression and what is the difference?
+ The main difference between a function expression and a function declaration is the function name,
+ which can be omitted in function expressions to create anonymous
+9.How to remove a property from an object?
+ by using the delete Operator
+10.What is a label statements and give an example to use it.
+ A label is simply an identifier followed by a colon (:) 
+ that is applied to a statement or a block of code 
+ Used to know where to jump, return, skip within the code
+
